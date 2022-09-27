@@ -1,0 +1,327 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: Teko,'sans-serif'}
+*::selection {background-color: #de4f61;color: white;}
+a{text-decoration: none !important;}
+li{list-style: none;float: left;} img{width: 100%;}
+@font-face{src: url(Teko-SemiBold.ttf);font-family: 'Teko';}
+@media (min-width:2000px){
+    .page-head h1 {padding-left: 20% !important;font-size: 165px !important;}
+    .page-head h4 {padding-left: 20% !important;font-size: 40px !important;}
+    .page-head button  {margin-left: 27% !important;font-size: 25px !important;}}
+/* ////////for L-Laptop//////// */
+@media (max-width:1300px){
+    .home-cover .header{padding: 0px !important;}
+    .home-cover .page-head h1{margin: 120px 0 0 60px!important;font-size: 112px!important;}
+    .page-head h4,.page-head button{margin-left: 60px !important;}
+    .page-contint .row-contint {top: -200px !important;}
+    .icons-row {padding-top: 30% !important;}
+    .footer h3 {font-size: 38px !important;}
+    .footer h4 {font-size: 20px !important;}}
+/* ////////for S-Laptop//////// */
+@media (max-width:1000px){
+    .home-cover .header ul{display: none;}
+    .home-cover .header button{font-size: 15px !important;}
+    .page-contint .row-contint {top: -160px !important;}
+    .page-contint .mcb-item h3 {font-size: 40px !important;}
+    .icons-row {padding-top: 55% !important;}
+    .ALIQUAM .ALIQUAM-TEXT h3 {font-size: 35px !important;}
+    .ALIQUAM .ALIQUAM-TEXT h4 {font-size: 14px !important;}
+    .ALIQUAM .ALIQUAM-TEXT ul li {font-size: 15px !important;}
+    .ALIQUAM .ALIQUAM-TEXT p{font-size: 15px !important;line-height: 1.8;}
+    .OUR-CLUB .col-md-3{zoom: 90%;}
+    .nav-btn{display: block !important;}}
+/* ////////for tablet//////// */
+@media (max-width: 768px){
+    .home-cover .header {padding: 0 0px !important;}
+    .home-cover .page-head h1 {
+    margin: 50px 0 0 30px !important;
+    font-size: 85px !important;}
+    .page-head h4 {margin-left: 30px !important;font-size: 20px !important;}
+    .page-head button{margin-left: 30px !important;font-size: 12px !important;}}
+/* ////////for S-tablet//////// */
+@media (max-width: 767px){ 
+    .home-cover .header {background-color: #000;}
+    .home-cover .header button{display: none;}
+    .home-cover .header .col-md-3 img{display: block;margin: 16px auto !important;}
+    .page-head{padding-top: 99px !important; margin-top: 59px;}
+    .QUESTIONS .coustom{padding-left: 15px !important;}}
+/* ////////for L-Mobile//////// */
+@media (max-width: 500px){
+    .home-cover .page-head h1 {
+    margin: 8px 0 0 17px !important;
+    font-size: 49px !important;}
+    .page-head h4 {margin: 20px 0 20px 19px !important;
+        font-size: 13px !important;
+        letter-spacing: 3px !important;}
+    .page-head button{margin-left: 19px !important;
+        font-size: 10px !important;
+        padding: 8px 8px !important;}
+    .page-contint .row-contint {top: -95px !important;}
+    .page-contint .mcb-item {padding: 0px 0 45px !important;
+        background-color: #080b10;zoom: 83%;}   
+    .page-contint .mcb-item img{padding: 0px 35px;}
+    .icons-row {padding-top: 170% !important;}
+    .icons-row .meet-us h2 {font-size: 65px !important;}
+    .icons-row .meet-us h4 {letter-spacing: 2px !important;font-size: 16px !important;}
+    .icons-row .icon .img {margin-top: 40px !important;width: 25% !important;}
+    .icons-row .icon p{font-size: 14px !important;padding: 0 10px;}
+    .choose h3{font-size: 20px !important;}
+    .choose .one-third {padding: 0px 11.5% 60px !important;}    
+    .pro .pro-title h2 {font-size:62px !important;}
+    .pro .pro-title h3 {font-size: 18px !important;}
+    .footer .col-12{padding: 15px 22px;}
+    .footer h3 {font-size: 28px !important;}
+    .footer h4 {font-size: 14px !important;}
+    .ALIQUAM .ALIQUAM-TEXT h3 {font-size: 25px !important;padding-left: 10px;}
+    .ALIQUAM .ALIQUAM-TEXT h4 {font-size: 12px !important;padding-left: 10px;}
+    .ALIQUAM .ALIQUAM-TEXT p {
+        font-size: 13px !important;
+        padding-left: 10px;
+        line-height: 1.5;}  
+    .ALIQUAM .pic16{padding: 0 30px;}
+    .CATHERINE {padding-bottom: 30px !important;}
+    .CATHERINE .ALIQUAM:last-child {padding-bottom: 0 !important;}
+    .CATHERINE .ALIQUAM .ALIQUAM-TEXT {padding-top: 0px !important;}
+    .LEVEL .ALIQUAM-TEXT ul {padding-left: 15px;}
+    .QUESTIONS h2{font-size: 20px !important;}
+    .nav-btn{position: absolute;
+        top: -67px;
+        right: 10px;
+        z-index: 1000; }
+    .nav{padding: 10px 10px 600px 115% !important;}} 
+/* ////////for M-Mobile//////// */
+@media (max-width: 380px){.icons-row {padding-top: 200% !important;}
+    .home-cover .page-head h1 {font-size: 44px !important;}
+    .nav li a{font-size: 16px !important;margin-bottom: 0px !important;}}
+/* ////////for S-Mobile//////// */
+@media (max-width: 365px){
+    .home-cover .page-head h1 {
+    margin: -23px 0 0 17px !important;
+    font-size: 34px !important;}
+    .page-head h4 {margin: 10px 0 10px 19px !important;font-size: 10px !important;}
+    .icons-row {padding-top: 240% !important;}
+    .pro .pro-title h2 {font-size: 52px !important;}
+    .ALIQUAM .ALIQUAM-TEXT ul li {font-size: 12px !important;}
+    .page-contint .mcb-item h3 {font-size: 35px !important;}}
+/* ////////buttons hover//////// */
+button{transition: .6s;}
+button:hover{background-color:#c2384b !important;border-color:#c2384b !important;}
+/* ////////Home page code//////// */
+.home-cover{background: url(background1.jpg) no-repeat top;background-size: cover;}
+.home-cover .header{padding: 30px 105px;position: absolute;width: 100%;top: 0;z-index: 10;}
+.fixe{top: -200px !important;}
+.fixed{position: fixed !important;
+    background-color: #05080d !important;
+    padding: 0 105px !important;
+    transition: .8s;top: 0 !important;}
+.home-cover .header .nav-btn{width: 45px;
+    float: right;
+    margin: 11px;
+    padding: 11px;
+    display: none;}
+.home-cover .col-md-9 ul{margin: 0;z-index: -1;}
+.home-cover .col-md-9 ul li{margin-right: 46px;}
+.home-cover .col-md-9 ul li a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 10px 0; 
+    transition: .6s;}
+.home-cover .col-md-9 ul li a:hover{color: #de4f61}
+.nav{position: absolute;
+    right: 0%;
+    top: 0%;
+    padding: 56px 70px 600px 115%;
+    background: #00000055;
+    display: block !important;}
+/* ////////buttons code//////// */
+.home-cover .col-md-9 button,.home-cover .page-head button,.page-contint .mcb-item button
+,.choose .one-third .BEGINNER button,.pro .pro-btn button,.MACHINES .ALIQUAM-TEXT button,   
+.QUESTIONS button{background-color: #de4f61;
+    border: 1px solid #de4f61;
+    margin: 17px 30px 0 0;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 7px 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;}
+/* ////////Home cover code//////// */
+.home-cover .page-head{padding-top: 150px;}
+.home-cover .page-head h1{    
+    margin: 130px 0 0 ;
+    font-size: 128px; 
+    line-height: .75;
+    color: #fff; 
+    width: 100%;
+    transition: .6s .6s;}
+.ml180{margin-left: 180px !important;}
+.home-cover .page-head h4{
+    color: rgba(255, 255, 255, 0.851);
+    letter-spacing: 5px;
+    margin: 40px 190px;
+    line-height: 1.5;
+    font-size: 25px;
+    width: 100%;}
+.home-cover .page-head button{    
+    margin: 0px 0 60px 187px;
+    padding: 12px 20px;
+    border-radius: 0;
+    font-size: 15px;}
+/* ////////Page contint code//////// */
+.page-contint {margin-top: -5px; position: relative;}
+.page-contint .row-contint{position: absolute;top: -260px;width: 100%;}
+.page-contint .mcb-item{text-align: center;color: #fff;padding: 0;}
+.page-contint .mcb-item img{width: 100%;height: 290px; object-fit: cover;}
+.page-contint .mcb-item h3{margin:-180px 0 150px;
+    font-size: 43px;
+    line-height: .8;}
+.page-contint .mcb-item p{
+    padding: 0px 55px;
+    color: #e0e0e0;
+    font-size: 18px;
+    line-height: 1.6;}
+.page-contint .mcb-item button {margin: 0;padding: 12px 17px;}
+/* ////////Home page icons code//////// */
+.icons-row{padding-top: 22%;color: #fefefe;text-align: center;padding-bottom: 40px}
+.icons-row .meet-us h2{font-size: 110px;margin: 60px 0 0 0;}
+.icons-row .meet-us h4{letter-spacing: 4px;font-size: 24px;}
+.icons-row .icon{padding-bottom: 20px;}
+.icons-row .icon .img{width: 38%; margin: 80px auto 35px;}
+/* ////////Choose code//////// */
+.choose{text-align: center;padding: 100px 0;}
+.choose h3{font-size: 26px;
+    letter-spacing: 5px;
+    margin-bottom: 60px;}
+.choose .one-third{padding: 0 2.5% 0;}
+.choose .one-third .BEGINNER{background-color: #f5f5f5;padding: 50px 10% 35px;}
+.choose .one-third .costom{background-image: url(gym3_pic12.jpg);}
+.choose .one-third .BEGINNER ul li{float: none;font-size: 18px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.102);
+    padding-bottom: 10px;
+    margin-bottom: 22px;}
+.choose .one-third .costom ul li{color:#fefefe;}
+.choose .one-third .BEGINNER ul li:last-child{border: none;}
+.choose .one-third .BEGINNER ul .disable{color: rgba(182, 182, 182, 0.702);}
+.choose .one-third .costom ul .disable{color: #ff8cab;}
+.choose .one-third .BEGINNER h4{font-size: 40px;line-height: 1;}
+.choose .one-third .BEGINNER h5{font-size: 20px;letter-spacing:5px;margin:15px 0 30px;}
+.choose .one-third .costom h5{color: #fff;}
+.choose .one-third .BEGINNER p{
+    font-family: serif;
+    color: #adaeb0;
+    font-size: 17px;
+    margin-bottom: 45px;}
+.choose .one-third .costom p{color: #3f3238;}
+.choose .one-third .BEGINNER button{margin: 0 0 25px;
+    font-size: 16px;
+    padding: 12px;}
+.choose .one-third .costom button{
+    color: rgba(44, 45, 46, 0.859);
+    background-color: #fefefe;
+    border-color: #fefefe;}
+.choose .one-third .costom button:hover{
+    background-color: transparent !important;
+    border-color: #fff  !important;
+    color: #fff !important;}
+/* ////////Pro code//////// */
+.background2{padding: 90px 0 40px;
+    background: url(background2.png) center no-repeat;
+    background-color: #080b10;
+    text-align: center;
+    color: #fff;}
+.pro .pro-title h2{font-size: 110px;margin: 0;}
+.pro .pro-title h3{font-size: 30px;letter-spacing: 2px;}
+.pro .gym{margin-top: 40px;}
+.pro .gym img{padding: 0px 20px 35px;}
+.pro .gym h4{font-size: 40px;line-height: 1;}
+.pro .gym p{font-size: 17px;letter-spacing: 1px;}
+.pro .pro-btn button{margin: 66px 0;
+    font-family: inherit;    
+    padding: 13px 21px;
+    font-size: 17px;}
+/* ////////Footer code//////// */
+.footer{  
+    background-color: #080b10;
+    border-top: 1px solid #26202e;
+    border-bottom: 1px solid #26202e;
+    padding: 100px 0 85px;
+    color: #fff;}
+.footer h3{color: #de4f61;font-size: 44px;}
+.footer h4{font-size: 27px;letter-spacing: 3px;line-height: 1.5;}
+.footer .socil-icons{text-align: right;}
+.footer .socil-icons img {
+    background-color: #de4f61;
+    border-radius: 25px;
+    margin-left: 16px;
+    padding: 6px;
+    width: 28px;
+    transition: .3s;
+    cursor: pointer;}
+.footer .socil-icons img:hover{background-color: #b33243;}
+.copy-right{background-color: #080b10;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 30px 0 5px;
+    font-size: 18px;}
+.copy-right p a{color: #de4f61;}
+/* ///////////////about page code/////////////// */
+.about-cover {background: url(about-cover.jpg)center;}
+.about-cover .page-head h1{
+    font-size: 110px;
+    line-height: .8;
+    margin: 110px 0 0 135px;}
+.about-cover .page-head div{margin-bottom: 110px ;}
+/* ////////Aliquam code//////// */
+.ALIQUAM{padding: 100px 0;background-color: #080b10; color: #f0f0f0;}
+.ALIQUAM .ALIQUAM-TEXT{padding-right: 60px;}
+.ALIQUAM .ALIQUAM-TEXT h3{font-size: 45px;line-height: .9;color: #de4f61;}
+.ALIQUAM .ALIQUAM-TEXT h4{font-size: 18px;line-height: 1.5;margin: 15px 0 38px;}
+.ALIQUAM .ALIQUAM-TEXT ul li{float: none;margin-top: 20px;color: #c4c3c3;}
+.ALIQUAM .ALIQUAM-TEXT ul li img{width: 16px;
+    background-color: #de4f61;
+    border-radius: 50px;
+    padding: 2px;
+    margin: -2px 8px 0 30px;}
+/* ////////Our club code//////// */
+.OUR-CLUB {text-align: center;padding: 100px 15px;}
+.OUR-CLUB .col-12 h3{font-size: 30px;letter-spacing: 6px;margin-bottom: 80px;}
+.OUR-CLUB .col-md-3 h4{font-size: 110px;color: #de4f61;}
+.OUR-CLUB .col-md-3 h5{font-size: 37px;}
+.OUR-CLUB .col-md-3 h6 {font-family: sans-serif;font-size: 16px;line-height: 1.6;}
+/* ////////Catherine code//////// */
+.CATHERINE{padding: 100px 0 50px;background-color: #080b10}
+.CATHERINE .ALIQUAM{padding : 0 0 50px 0;}
+.CATHERINE .ALIQUAM .ALIQUAM-TEXT {padding: 100px 30px 0;}
+.CATHERINE .ALIQUAM .ALIQUAM-TEXT .footer{border: none;padding: 35px 0;}
+.CATHERINE .ALIQUAM .ALIQUAM-TEXT .socil-icons{text-align: left;padding: 0;}
+.CATHERINE .ALIQUAM .ALIQUAM-TEXT .socil-icons img{margin: 0 18px 0 0;}
+/* ////////Machines code//////// */
+.MACHINES{padding: 105px 0px 0;}
+.MACHINES .ALIQUAM-TEXT{padding: 50px 20px 0px 60px;}
+.MACHINES .custom{padding: 50px 60px 0px 20px ;}
+.MACHINES .ALIQUAM-TEXT h3{padding-bottom: 20px;}
+.MACHINES .ALIQUAM-TEXT button {margin: 0;padding: 10px 14px;}
+/* ////////Level code, go to "Aliquam code" //////// */
+.LEVEL .ALIQUAM-TEXT h5{font-size: 29px;
+    letter-spacing: 2px;
+    margin: 20px 0;}
+.LEVEL .ALIQUAM-TEXT ul img{width: 20px;}
+.LEVEL .ALIQUAM-TEXT ul li{margin: 15px 0 20px;}
+/* ////////Form code//////// */
+.QUESTIONS{background-color: #080b10;
+    padding: 20px 0 50px;
+    text-align: center;
+    color: #fff;}
+.QUESTIONS .coustom{padding-left: 0;}
+.QUESTIONS h2{font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;}
+.QUESTIONS input,.QUESTIONS textarea{width: 100%;
+    background-color: rgba(37,39,43,1);
+    border-color: #25272b;
+    margin-bottom: 15px;
+    color: #87898f;
+    font-size: 14px;
+    padding: 10px;}
